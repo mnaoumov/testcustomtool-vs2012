@@ -1,0 +1,6 @@
+Line1
+Line2
+
+Filename: C:\Dev\TestCustomTool\TestCustomTool\TextFile1.txt
+
+Timestamp: 9/26/2012 12:56:58 AM

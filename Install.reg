@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+ 
+; TODO: Replace with your GUID
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VisualStudio\11.0_Config\CLSID\{3B850477-71D3-4916-A3A3-D1BD0749BFAA}]
+"InprocServer32"="C:\\Windows\\System32\\mscoree.dll"
+"ThreadingModel"="Both"
+; TODO: Replace with your class
+"Class"="TestCustomTool.TestCustomToolGenerator"
+; TODO: Replace with your assembly
+"Assembly"="TestCustomTool, Version=1.0.0.0, Culture=neutral"
+; TODO: Replace with your dll file
+"CodeBase"="file:///C:\\Program Files\\TestCustomTool\\TestCustomTool.dll"
+
+; TODO: Replace with your tool name
+[HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\11.0_Config\Generators\{FAE04EC1-301F-11D3-BF4B-00C04F79EFBC}\TestCustomTool]
+; TODO: Replace with your GUID
+"CLSID"="{3B850477-71D3-4916-A3A3-D1BD0749BFAA}"
+"GeneratesDesignTimeSource"=dword:00000001
+; TODO: Replace with your description
+@="Test Custom Tool"
